@@ -7,9 +7,9 @@
 
     <title>Konoba Kolona | Cavtat</title>
 
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Restaurant, Cavtat, Seafood">
+    <meta name="author" content="Dejan Lukic">
+    <meta name="keywords" content="Restaurant, Cavtat, Fish, Food">
     <meta name="robots" content="index, follow">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
