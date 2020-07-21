@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/ccf2869940.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -27,43 +28,38 @@
 	<?php include('templates/header.php'); ?>
 
 	<div class="container">
-        <div><h1>Menu</h1></div>
+        
 		<div class="contwrap">
 			<div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">COLD STARTERS</h2>
-                <p class="menu_span">Dalmatian prosciutto (dish)</p><p class="menu_price">50,00 kn</p>
-                <p class="menu_span">Dalmatian prosciutto (1/2 dish)</p><p class="menu_price">30,00 kn</p>
-                <p class="menu_span">Home-made cheese (dish)</p><p class="menu_price">35,00 kn</p>
-                <p class="menu_span">Home-made cheese (1/2 dish)</p><p class="menu_price">20,00 kn</p>
-                <p class="menu_span">Octopus carpaccio</p><p class="menu_price">55,00 kn</p>
-                <p class="menu_span">Fish salad</p><p class="menu_price">50,00 kn</p>
-                <p class="menu_span">Tuna and artichoke salad</p><p class="menu_price">40,00 kn</p>
-                <p class="menu_span">Scampi cocktail</p><p class="menu_price">60,00 kn</p>
-                <p class="menu_span">Oysters (1)</p><p class="menu_price">11,00 kn</p>
+                <p class="menu_span">Fish pate</p><p class="menu_price">30,00 kn</p>
+                <p class="menu_span">Cold pate</p><p class="bracket"> (dalmatian prosciutto & domestic cheese)</p><p class="menu_price">75,00 kn</p>
+                <p class="menu_span">Octopus salad</p><p class="menu_price">85,00 kn</p>
+                <p class="menu_span">Mozzarella burrata</p><p class="menu_price">70,00 kn</p>
+                <p class="menu_span">Fish carpaccio</p><p class="menu_price">77,00 kn</p>
+                <p class="menu_span">Octopus carpaccio</p><p class="menu_price">80,00 kn</p>
+                <p class="menu_span">Fish plate</p><p class="bracket"> (bruschette, avocado cream, marinated and smoked fish)</p><p class="menu_price">90,00 kn</p>
             </div>	
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
             <h2 class="center">WARM STARTERS</h2>
-                <p class="menu_span">Filled aubergines</p><p class="menu_price">35,00 kn</p>
-                <p class="menu_span">Omelettes (by choice))</p><p class="menu_price">35,00 kn</p>
-                <p class="menu_span">Batter-fried cheese</p><p class="menu_price">35,00 kn</p>
-                <p class="menu_span">Spaghetti napoletana</p><p class="menu_price">40,00 kn</p>
-                <p class="menu_span">Macaroni  bolognaise</p><p class="menu_price">40,00 kn</p>
-                <p class="menu_span">Tagliatelle with seafood</p><p class="menu_price">70,00 kn</p>
-                <p class="menu_span">Black risotto with squid and cuttlefish</p><p class="menu_price">60,00 kn</p>
-                <p class="menu_span">Mussels buzara (domestic-style)</p><p class="menu_price">45,00 kn</p>
-                <p class="menu_span">Mussels  marinara</p><p class="menu_price">45,00 kn</p>
-                <p class="menu_span">Batter-fried mussels</p><p class="menu_price">60,00 kn</p>
-                <p class="menu_span">Scampi buzara</p><p class="menu_price">120,00 kn</p>
-                <p class="menu_span">Grilled scampi</p><p class="menu_price">120,00 kn</p>
-                <p class="menu_span">Squid grilled</p><p class="menu_price">80,00 kn</p>
-                <p class="menu_span">Squid Korčula style</p><p class="menu_price">80,00 kn</p>
-                <p class="menu_span">Lobster (1kg)</p><p class="menu_price">500,00 kn</p>
+                <p class="menu_span">Mussels buzara</p><p class="bracket"> (garlic, white wine, chopped tomatoes)</p><p class="menu_price">70,00 kn</p>
+                <p class="menu_span">Mixed buzara</p><p class="bracket"> (shrimp, mussels, shellfish, scampi, chopped tomatoes, garlic, white wine)</p><p class="menu_price">100,00 kn</p>
+                <p class="menu_span">Spaghetti with swordfish and chilly</p><p class="menu_price">85,00 kn</p>
+                <p class="menu_span">Black risotto with cuttlefish</p><p class="menu_price">85,00 kn</p>
+                <p class="menu_span">Zucchini and prawn risotto</p><p class="menu_price">80,00 kn</p>
+                <p class="menu_span">Goat cheese ravioli with beefsteak</p><p class="menu_price">80,00 kn</p>
+                <p class="menu_span">Vegetable rissoto</p><p class="menu_price">60,00 kn</p>
+            </div>	
+            <div class="menu dessert" data-aos="zoom-in" data-aos-duration="1500">
+                <h2 class="center">SOUPS</h2>
+                <p class="menu_span">Adriatic fish soup</p><p class="menu_price">40,00 kn</p>
+                <p class="menu_span">Gourd soup with pumpkin seed oil</p><p class="menu_price">40,00 kn</p>
             </div>	
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
-                <h2 class="center">FISH</h2>
-                <p class="menu_span">Fresh sea fish (1kg)</p><p class="menu_price">300,00 kn</p>
-                <p class="menu_span">Fish (dish)</p><p class="menu_price">100,00 kn</p>
-                <p class="menu_span">Frogfish fillet parisienne</p><p class="menu_price">95,00 kn</p>
+                <h2 class="center">ADRIATIC SPECIALITIES</h2>
+                <p class="menu_span">Fresh sea fish 1kg</p><p class="menu_price">420,00 kn</p>
+                <p class="menu_span">Adriatic lobster 1kg</p><p class="menu_price">670,00 kn</p>
+                <p class="menu_span">"Naši Škoji"</p><p class="bracket">(fish kebab of white and blue fish, prawns and squid with asparagus and potatoes)</p><p class="menu_price">95,00 kn</p>
                 <p class="menu_span">Frogfish tail – house specialty (2 persons)</p><p class="menu_price">200,00 kn</p>
                 <p class="menu_span">Swordfish fisherman-style</p><p class="menu_price">110,00 kn</p>
                 <p class="menu_span">Fish plate(2 persons)</p><p class="menu_price">220,00 kn</p>

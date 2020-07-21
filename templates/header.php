@@ -6,12 +6,12 @@
             <h1>Konoba Kolona</h1>       
             <nav>
                 <div class="nav">
-                    <ul>
-                        <li><a href="index.php">Welcome</a></li>
-                        <li><a href="menu.php">Menu</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Order online</a></li>
+                    <ul id="active">
+                        <li><a class="activea" href="index.php">Welcome</a></li>
+                        <li><a class="activea" href="menu.php">Menu</a></li>
+                        <li><a class="activea" href="gallery.php">Gallery</a></li>
+                        <li><a class="activea" href="contact.php">Contact</a></li>
+                        <li><a class="activea" href="login.php">Order online</a></li>
                         <li><i class="fas fa-bars fa-2x"></i></li>
                     </ul>
                 </div>
